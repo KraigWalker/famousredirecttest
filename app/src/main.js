@@ -19,8 +19,8 @@ define(function(require, exports, module) {
         classes: ['backfaceVisibility']
     });
 
-    logo.on("click", function(){
-        window.location = "www.foo.com";
+    logo.on('click', function() {
+        window.location = 'www.foo.com';
     });
 
     var initialTime = Date.now();
